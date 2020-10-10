@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+}
+/*#header{
+	position: relative;
+}*/
+div#header {
+    background-image: url(../../assets/img/banner.jpg);
+    height: 100vh;
+    width: 100%;
+}
+.banner {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -36%);
+    z-index: 1;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    height: 34px;
+    padding: 4px 26px;
+    font-weight: 600;
+    border: none;
+    margin: 4px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000;
+    background: #ffc61a;
+    border-radius: 25px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	color: #000;
+    background: #ffc61a;
+    border-radius: 25px;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding-top: 20px;
+}
+.banner-content {
+    text-align: center;
+}
+.banner-content .heading{
+	font-size: 30px; 
+	color: #ffc61a;
+	text-transform: uppercase;
+}
+.banner-content .heading-bold{
+	font-size: 50px;
+	color: #fff;
+	font-weight: 800;
+}
+.banner-content .subheading{
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 14px;
+	text-transform: uppercase;
+}
+.banner-content img{
+	width: 80%;
+	margin-top: 60px;
+}
+#quote{
+	position: relative;
+	bottom: 0;
+	background-color: #ffc61a;
+	padding-top: 140px;
+	padding-bottom: 60px;
+}
+div#plane {
+    padding: 100px 0;
+}
+h1.section-heading {
+	color: #ffc61a;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+h1.section-heading span{
+	color: #000;
+	display: block;
+}
+.card {
+    background: #f5f4f2;
+    text-align: center;
+    padding: 28px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.card h4 {
+    text-transform: uppercase;
+    margin: 12px 0px;
+}
+.card p {
+    line-height: 22px;
+    color: #333;
+}
+h2.pricing {
+    color: #ffc61a;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.card img {
+    position: relative;
+    margin-top: -90px;
+    width: 100%;
+}
+.card:hover{
+	background-color: #ffc61a;
+}
+.card:hover h2.pricing{
+	color: #333;
+}
+a.btn.btn-warning {
+    width: 130px;
+    margin: 0 auto;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.card:hover a.btn.btn-warning{
+	background-color: #333;
+	color: #fff;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+	.card{
+		margin-bottom: 80px;
+	}
+	.banner-content img {
+	    margin-top: 150px;
+	    width: 100%;
+	}
+	.banner-content .heading-bold{
+		font-size: 40px;
+	}
+	.banner-content .heading{
+		font-size: 22px;
+	}
+	.banner-content .subheading {
+	    font-size: 15px;
+	    letter-spacing: 8px;
+	}
+	#quote{
+		padding-top: 90px;
+	}
+}
