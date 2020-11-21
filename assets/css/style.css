@@ -5,6 +5,8 @@
 }
 body{
 	overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 /*#header{
 	position: relative;
@@ -134,8 +136,97 @@ a.btn.btn-warning {
 	background-color: #333;
 	color: #fff;
 }
-
-
+.form {
+    background: #fff;
+    box-shadow: -4px 1px 25px #3333334f;
+}
+form{
+    padding: 20px;
+}
+.form-heading {
+    background: #333;
+    padding: 2px 30px;
+}
+.form-heading h1 {
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.form-heading h1 span{
+    color: #ffc61a;
+}
+button.btn.btn-primary {
+    background: #333;
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.form-control {
+    border: 0px;
+    border-bottom: 2px solid #a3a1a1;
+    border-radius: 0;
+    padding: 0;
+    outline: none;
+}
+a.btn.btn-primary {
+    background: #333;
+    padding: 12px 30px;
+    border: 0;
+}
+.portfolio {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0px;
+    color: #fff;
+}
+.portfolio i {
+    font-size: 36px;
+    float: left;
+    margin-right: 20px;
+    height: 40px;
+}
+.portfolio h4 {
+    color: #ffc61a;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.portfolio .col-sm-6 {
+    margin-bottom: 40px;
+}
+.portfolio h1.section-heading span{
+    color: #fff;
+}
+.get_in_touch {
+    background: #ffc61a;
+    text-align: center;
+    padding: 70px 0px;
+}
+.get_in_touch h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.get_in_touch h1.tel a {
+    font-size: 60px;
+    color: #333;
+    font-weight: 800;
+    text-decoration: none;
+}
+.copyright {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    height: auto;
+    line-height: 35px;
+}
+.copyright p a{
+    color: #ffc61a;
+}
 
 
 @media screen and (max-width: 768px){
@@ -159,4 +250,13 @@ a.btn.btn-warning {
 	#quote{
 		padding-top: 90px;
 	}
+    .navbar-light .navbar-toggler{
+        background: #fff;
+    }
+    div#navbarSupportedContent {
+        background: #282828;
+        padding: 14px;
+        z-index: 2;
+        border-radius: 4px;
+    }
 }
